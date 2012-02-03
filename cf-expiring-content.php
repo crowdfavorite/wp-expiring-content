@@ -2,7 +2,7 @@
 /*
 Plugin Name: CF Expiring Content Shortcode 
 Plugin URI: http://crowdfavorite.com/wordpress/plugins/expiring-content-shortcode 
-Description: Allows you to designate content in a post or page to expire on a given date. Example usage: [expires on="tomorrow"]Your content here[/expires]
+Description: Allows you to designate content in a post or page to expire on a given date. Example usage: [expires on="2010-01-01"]Your content here[/expires]
 Version: 1.0 
 Author: Crowd Favorite
 Author URI: http://crowdfavorite.com
@@ -13,7 +13,7 @@ Author URI: http://crowdfavorite.com
 function cfecs_shortcode($args = array(), $content = '') {
 	extract(shortcode_atts(
 		array(
-			'on' => 'tomorrow',
+			'on' => 'tomorrow', // tomorrow never comes
 		),
 		$args
 	));
