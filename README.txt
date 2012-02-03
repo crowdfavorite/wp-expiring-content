@@ -4,7 +4,7 @@ Donate link: http://crowdfavorite.com/donate/
 Tags: content, expiring, expire, expires, hide, show
 Requires at least: 2.5
 Tested up to: 3.0.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 
 Allows designated content to be shown only until an expiration date/time.
@@ -37,6 +37,9 @@ A plugin by <a href="http://crowdfavorite.com">Crowd Favorite</a>; we build Big 
 
 
 == Changelog ==
+
+= 1.0.1 =
+* Addition of README
 
 = 1.0 =
 * First public release.
